@@ -1,0 +1,29 @@
+# Environment Variables
+.env
+*.env
+!.env.example
+
+# PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python virtual environment and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
